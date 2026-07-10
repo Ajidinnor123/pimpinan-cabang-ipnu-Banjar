@@ -521,7 +521,7 @@
       <div class="cta-row">
         <a href="#layanan" class="btn btn-primary">Layanan Kader</a>
         <a href="#form-jas" class="btn btn-ghost">Pesan Jas IPNU</a>
-        <a href="#berita" id="btn-open-berita-modal-hero" class="btn btn-ghost">+ Tambah Berita</a>
+        <a href="#berita"  class="btn btn-ghost">halaman berita</a>
       </div>
     </div>
     <div class="hero-visual">
@@ -911,8 +911,7 @@
       <div>
         <h5>Kontak</h5>
         <ul>
-          <li>Sekretariat: Martapura, Kab. Banjar</li>
-          <li>Email: pcipnubanjar@contoh.or.id</li>
+          <li>Sekretariat: Martapura, Kab. Banjar</li><a href="https://maps.app.goo.gl/UQ3YWGtd8ba6nVp68" target="_blank" rel="noopener">lokasi
           <li>WhatsApp Narahubung: <a href="https://wa.me/6283853209822" target="_blank" rel="noopener">0838-5320-9822</a></li>
           <li>Instagram: <a href="https://instagram.com/pc.ipnukabbanjar" target="_blank" rel="noopener">@pc.ipnukabbanjar</a></li>
         </ul>
@@ -1291,9 +1290,6 @@
   const LOCAL_BERITA_KEY = 'ipnuBanjarBeritaLokal';
 
   const DEFAULT_BERITA = [
-    { tanggal:'08 Jul 2026', kategori:'Kegiatan', judul:'Judul berita utama kegiatan PC IPNU Kab. Banjar', ringkasan:'Ringkasan singkat kegiatan atau rilis pers yang menonjolkan capaian dan kontribusi kader IPNU di masyarakat...', foto:'', link:'' },
-    { tanggal:'06 Jul 2026', kategori:'Kabar Ranting', judul:'Judul berita dari ranting kecamatan', ringkasan:'Cuplikan singkat isi berita ranting.', foto:'', link:'' },
-    { tanggal:'03 Jul 2026', kategori:'Opini Kader', judul:'Judul opini kader tentang isu pelajar', ringkasan:'Cuplikan singkat opini kader.', foto:'', link:'' }
   ];
 
   let baseBerita = DEFAULT_BERITA; // diisi ulang kalau Google Sheet berhasil dimuat

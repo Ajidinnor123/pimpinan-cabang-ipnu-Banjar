@@ -561,12 +561,12 @@
       <div class="sub">Tersebar di Kab. Banjar</div>
     </div>
     <div class="stat">
-      <div class="num">2</div>
+      <div class="num">4</div>
       <div class="label">Pimpinan Komisariat</div>
       <div class="sub">Se-Kabupaten Banjar</div>
     </div>
     <div class="stat">
-      <div class="num">3</div>
+      <div class="num">21</div>
       <div class="label">Pimpinan Ranting</div>
       <div class="sub">Se-Kabupaten Banjar</div>
     </div>
@@ -579,74 +579,421 @@
       <div>
         <span class="eyebrow">Organisasi</span>
         <h2>Struktur Pimpinan Cabang</h2>
-        <p>Susunan Pimpinan Cabang IPNU Kabupaten Banjar masa khidmat 2024–2026. <strong>Klik nama</strong> untuk mengedit langsung, <strong>klik foto/avatar</strong> untuk mengunggah foto pengurus. Perubahan tersimpan otomatis di perangkat ini.</p>
+        <p>Susunan Pimpinan Cabang IPNU Kabupaten Banjar masa khidmat 2026–2028. <strong>Klik nama</strong> untuk mengedit langsung, <strong>klik foto/avatar</strong> untuk mengunggah foto pengurus. Perubahan tersimpan otomatis di perangkat ini.</p>
       </div>
     </div>
 
-    <div class="tier-label" data-tier="Pimpinan Harian">
-      <span class="tag">Pimpinan Harian</span>
-      <div class="rule"></div>
-    </div>
-    <div class="people-grid" id="grid-pimpinan-harian" data-tier="Pimpinan Harian">
-      <div class="person-card"><div class="avatar">KU</div><h4>Rahmadi</h4><div class="role">Ketua Umum</div></div>
-      <div class="person-card"><div class="avatar">MA</div><h4>Maulana Al-kausar</h4><div class="role">Sekretaris</div></div>
-      <div class="person-card"><div class="avatar">BU</div><h4>Nama Pengurus</h4><div class="role">Bendahara</div></div>
-      <div class="person-card"><div class="avatar">W1</div><h4>Nama Pengurus</h4><div class="role">Wakil Ketua 1</div></div>
-      <div class="person-card"><div class="avatar">W2</div><h4>Nama Pengurus</h4><div class="role">Wakil Ketua II</div></div>
-      <div class="person-card"><div class="avatar">W3</div><h4>Nama Pengurus</h4><div class="role">Wakil Ketua III</div></div>
-      <div class="person-card"><div class="avatar">W4</div><h4>Nama Pengurus</h4><div class="role">Wakil KETUA IV</div></div>
-    </div>
+   <!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Susunan Pengurus PC IPNU Kabupaten Banjar 2026-2028</title>
+<style>
+  :root{
+    --hijau-tua:#0B4429;
+    --hijau:#155C3B;
+    --hijau-muda:#1F7A52;
+    --emas:#C99A3D;
+    --emas-terang:#E0B85C;
+    --krem:#F7F4EC;
+    --krem-kartu:#FFFFFF;
+    --teks:#1B2620;
+    --teks-lembut:#5B6B62;
+    --garis:#E3DFD2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--krem);
+    color:var(--teks);
+    font-family:'Georgia','Iowan Old Style',serif;
+    line-height:1.5;
+  }
+  .display{font-family:'Iowan Old Style','Palatino Linotype',Georgia,serif;}
+  .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;}
 
-    <div class="tier-label" data-tier="Lembaga Kaderisasi">
-      <span class="tag">Lembaga Kaderisasi</span>
-      <div class="rule"></div>
-    </div>
-    <div class="people-grid" id="grid-lembaga-kaderisasi" data-tier="Lembaga Kaderisasi">
-      <div class="person-card"><div class="avatar">KB</div><h4>Nama Pengurus</h4><div class="role">Ketua Lembaga</div></div>
-      <div class="person-card"><div class="avatar">SB</div><h4>Nama Pengurus</h4><div class="role">Sekretaris Lembaga</div></div>
-    </div>
+  header.hero{
+    background:linear-gradient(160deg,var(--hijau-tua) 0%,var(--hijau) 55%,var(--hijau-muda) 100%);
+    color:#F4EFE0;
+    padding:64px 24px 56px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+  header.hero::before{
+    content:"";
+    position:absolute;inset:0;
+    background-image:
+      radial-gradient(circle at 12% 20%, rgba(224,184,92,0.08) 0, transparent 40%),
+      radial-gradient(circle at 88% 80%, rgba(224,184,92,0.10) 0, transparent 45%);
+  }
+  .badge{
+    display:inline-block;
+    width:64px;height:64px;
+    border:2px solid var(--emas-terang);
+    border-radius:50%;
+    line-height:60px;
+    font-size:22px;
+    letter-spacing:1px;
+    margin-bottom:20px;
+    color:var(--emas-terang);
+    font-family:'Iowan Old Style',serif;
+    position:relative;
+    z-index:1;
+  }
+  header.hero h1{
+    font-size:clamp(26px,4vw,40px);
+    font-weight:400;
+    letter-spacing:0.5px;
+    position:relative;z-index:1;
+  }
+  header.hero .sub{
+    margin-top:10px;
+    font-size:15px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:var(--emas-terang);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    position:relative;z-index:1;
+  }
+  header.hero .masa{
+    margin-top:18px;
+    font-size:14px;
+    color:#D9CFA8;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    position:relative;z-index:1;
+  }
 
-    <div class="tier-label" data-tier="Departemen Pendidikan &amp; Dakwah">
-      <span class="tag">Departemen Pendidikan &amp; Dakwah</span>
-      <div class="rule"></div>
-    </div>
-    <div class="people-grid" id="grid-departemen-pendidikan-dakwah" data-tier="Departemen Pendidikan &amp; Dakwah">
-      <div class="person-card"><div class="avatar">KB</div><h4>Nama Pengurus</h4><div class="role">Ketua Departemen</div></div>
-      <div class="person-card"><div class="avatar">SB</div><h4>Nama Pengurus</h4><div class="role">Sekretaris Departemen</div></div>
-    </div>
+  main{max-width:1080px;margin:0 auto;padding:48px 24px 96px;}
 
-    <div class="tier-label" data-tier="Departemen Organisasi">
-      <span class="tag">Departemen Organisasi</span>
-      <div class="rule"></div>
-    </div>
-    <div class="people-grid" id="grid-departemen-organisasi" data-tier="Departemen Organisasi">
-      <div class="person-card"><div class="avatar">KB</div><h4>Nama Pengurus</h4><div class="role">Ketua Departemen</div></div>
-      <div class="person-card"><div class="avatar">SB</div><h4>Nama Pengurus</h4><div class="role">Sekretaris Departemen</div></div>
-    </div>
+  .tier-label{
+    display:flex;align-items:center;gap:16px;
+    margin:56px 0 22px;
+  }
+  .tier-label .tag{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    font-size:12px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--hijau);
+    font-weight:700;
+    white-space:nowrap;
+  }
+  .tier-label .rule{flex:1;height:1px;background:var(--garis);}
+  .tier-label.sub .tag{color:var(--emas);font-weight:600;}
 
-    <div class="tier-label" data-tier="Departemen Bakat Minat &amp; Olahraga">
-      <span class="tag">Departemen Bakat Minat &amp; Olahraga</span>
-      <div class="rule"></div>
-    </div>
-    <div class="people-grid" id="grid-departemen-bakat-minat-olahraga" data-tier="Departemen Bakat Minat &amp; Olahraga">
-      <div class="person-card"><div class="avatar">KB</div><h4>Nama Pengurus</h4><div class="role">Ketua Departemen</div></div>
-      <div class="person-card"><div class="avatar">SB</div><h4>Nama Pengurus</h4><div class="role">Sekretaris Departemen</div></div>
+  .people-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:14px;
+    margin-bottom:6px;
+  }
+  .person-card{
+    background:var(--krem-kartu);
+    border:1px solid var(--garis);
+    border-radius:10px;
+    padding:18px 16px;
+    display:flex;align-items:center;gap:12px;
+    transition:box-shadow .15s ease, transform .15s ease;
+  }
+  .person-card:hover{
+    box-shadow:0 6px 18px rgba(11,68,41,0.10);
+    transform:translateY(-2px);
+  }
+  .avatar{
+    flex-shrink:0;
+    width:40px;height:40px;
+    border-radius:50%;
+    background:var(--hijau-tua);
+    color:var(--emas-terang);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    font-size:12px;font-weight:700;letter-spacing:0.5px;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .person-card.ketua .avatar{background:var(--emas);color:var(--hijau-tua);}
+  .info h4{
+    font-size:15px;font-weight:600;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    color:var(--teks);
+  }
+  .info .role{
+    font-size:12px;
+    color:var(--teks-lembut);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    margin-top:2px;
+    letter-spacing:0.3px;
+  }
+
+  .kelompok{margin-bottom:34px;}
+  .kelompok-judul{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    font-size:14px;font-weight:700;
+    color:var(--teks);
+    margin:22px 0 10px;
+    padding-left:12px;
+    border-left:3px solid var(--emas);
+  }
+
+  .pembina-box{
+    background:var(--krem-kartu);
+    border:1px solid var(--garis);
+    border-radius:10px;
+    padding:24px 26px;
+  }
+  .pembina-box p{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    font-size:13px;color:var(--teks-lembut);margin-bottom:4px;
+  }
+  .pembina-box .label{
+    font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
+    color:var(--hijau);font-weight:700;margin-top:14px;margin-bottom:8px;
+  }
+  .pembina-box .label:first-child{margin-top:0;}
+  .pembina-list{
+    columns:2;
+    column-gap:32px;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    font-size:13.5px;color:var(--teks);
+  }
+  .pembina-list div{break-inside:avoid;padding:3px 0;}
+  @media(max-width:600px){.pembina-list{columns:1;}}
+
+  footer{
+    text-align:center;
+    padding:32px 24px 48px;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+    font-size:12px;color:var(--teks-lembut);
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="badge">IPNU</div>
+  <h1 class="display">Susunan Pengurus</h1>
+  <div class="sub">Pimpinan Cabang Ikatan Pelajar Nahdlatul Ulama</div>
+  <div class="masa">Kabupaten Banjar &bull; Provinsi Kalimantan Selatan &bull; Masa Khidmat 2026&ndash;2028</div>
+</header>
+
+<main>
+
+  <!-- PELINDUNG & PEMBINA -->
+  <div class="tier-label">
+    <span class="tag">Pelindung &amp; Pembina</span>
+    <div class="rule"></div>
+  </div>
+  <div class="pembina-box">
+    <div class="label">Pelindung</div>
+    <p>PCNU Kabupaten Banjar</p>
+    <div class="label">Pembina</div>
+    <div class="pembina-list">
+      <div>1. H. Saidi Mansyur, S.I.Kom</div>
+      <div>2. H. Said Idrus Al-Habsyie</div>
+      <div>3. Dr. H. Muhammad Husen, M.Ag</div>
+      <div>4. KH. Hasanuddin Badruddin</div>
+      <div>5. KH. Muhammad Naufal Rosyad</div>
+      <div>6. Dr. H. A. Fauzan Saleh, M.Ag</div>
+      <div>7. KH. Syamsul Bahri Ardy</div>
+      <div>8. Ust. Nuryadi Basri S.Ag</div>
+      <div>9. Drs. Izzudin, M.Ag</div>
+      <div>10. H. A. Fauzan Asniah, MM</div>
+      <div>11. H. Jatim</div>
+      <div>12. Muhammad Jauhari, S.Pd.I</div>
+      <div>13. Muhammad Zaini, M.Pd</div>
+      <div>14. Moh. Burhanuddin, S.Ip</div>
+      <div>15. Maulana Nur, S.Pd</div>
+      <div>16. Muhammad HS</div>
+      <div>17. M. Syafii Rifqi, S.Pd.I</div>
+      <div>18. Ustadz Muhammad HR, S.Pd.I</div>
+      <div>19. Abdussalam, S.Pd.I</div>
+      <div>20. Hamdiani, M.Pd</div>
+      <div>21. Muhammad Wahyu Pratama, S.H</div>
+      <div>22. Kasman S.Pd</div>
+      <div>23. Abdul Muiz</div>
+      <div>24. Muhammad Arsyad Al Asyarie S.H</div>
     </div>
   </div>
-</section>
 
-<!-- ===================== MODAL TAMBAH ANGGOTA ===================== -->
-<div class="modal-overlay" id="anggota-modal-overlay">
-  <div class="modal-box">
-    <div class="modal-head">
-      <div>
-        <span class="eyebrow">Struktur Pimpinan</span>
-        <h3>Tambah Anggota Baru</h3>
-      </div>
-      <button type="button" class="modal-close" id="btn-close-anggota-modal" aria-label="Tutup">&times;</button>
+  <!-- BADAN PENGURUS HARIAN -->
+  <div class="tier-label">
+    <span class="tag">Badan Pengurus Harian</span>
+    <div class="rule"></div>
+  </div>
+
+  <div class="kelompok-judul">Ketua &amp; Wakil Ketua</div>
+  <div class="people-grid">
+    <div class="person-card ketua"><div class="avatar">RH</div><div class="info"><h4>Rahmadi</h4><div class="role">Ketua</div></div></div>
+    <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Raihan</h4><div class="role">Wakil Ketua</div></div></div>
+    <div class="person-card"><div class="avatar">AR</div><div class="info"><h4>Ahmad Rifa'i</h4><div class="role">Wakil Ketua</div></div></div>
+    <div class="person-card"><div class="avatar">AG</div><div class="info"><h4>Ahmad Ghofur</h4><div class="role">Wakil Ketua</div></div></div>
+    <div class="person-card"><div class="avatar">AD</div><div class="info"><h4>Aditya</h4><div class="role">Wakil Ketua</div></div></div>
+    <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Ridho</h4><div class="role">Wakil Ketua</div></div></div>
+  </div>
+
+  <div class="kelompok-judul">Sekretaris &amp; Wakil Sekretaris</div>
+  <div class="people-grid">
+    <div class="person-card ketua"><div class="avatar">MA</div><div class="info"><h4>Maulana Ahmad Al Kautsar</h4><div class="role">Sekretaris</div></div></div>
+    <div class="person-card"><div class="avatar">AS</div><div class="info"><h4>Asramani</h4><div class="role">Wakil Sekretaris</div></div></div>
+    <div class="person-card"><div class="avatar">AS</div><div class="info"><h4>Aspi</h4><div class="role">Wakil Sekretaris</div></div></div>
+    <div class="person-card"><div class="avatar">RA</div><div class="info"><h4>Rais Azka Arifin</h4><div class="role">Wakil Sekretaris</div></div></div>
+    <div class="person-card"><div class="avatar">MS</div><div class="info"><h4>M. Sajid Murofi</h4><div class="role">Wakil Sekretaris</div></div></div>
+    <div class="person-card"><div class="avatar">AM</div><div class="info"><h4>Ahmad Muzamil</h4><div class="role">Wakil Sekretaris</div></div></div>
+  </div>
+
+  <div class="kelompok-judul">Bendahara &amp; Wakil Bendahara</div>
+  <div class="people-grid">
+    <div class="person-card ketua"><div class="avatar">MH</div><div class="info"><h4>Muhammad Hafi</h4><div class="role">Bendahara</div></div></div>
+    <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Rohi</h4><div class="role">Wakil Bendahara</div></div></div>
+    <div class="person-card"><div class="avatar">MS</div><div class="info"><h4>Muhammad Subhan</h4><div class="role">Wakil Bendahara</div></div></div>
+    <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Ridho</h4><div class="role">Wakil Bendahara</div></div></div>
+    <div class="person-card"><div class="avatar">LU</div><div class="info"><h4>Lutfillah</h4><div class="role">Wakil Bendahara</div></div></div>
+    <div class="person-card"><div class="avatar">MI</div><div class="info"><h4>Muhammad Ihsan</h4><div class="role">Wakil Bendahara</div></div></div>
+  </div>
+
+  <!-- DEPARTEMEN-DEPARTEMEN -->
+  <div class="tier-label">
+    <span class="tag">Departemen-Departemen</span>
+    <div class="rule"></div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Departemen Pengembangan Organisasi</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">MA</div><div class="info"><h4>Muhammad Anas Al Fajari</h4><div class="role">Koordinator</div></div></div>
+      <div class="person-card"><div class="avatar">MF</div><div class="info"><h4>Mahammad Fadlan Arif</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">MB</div><div class="info"><h4>M. Amin Badali</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">MH</div><div class="info"><h4>Muhammad Hafi</h4><div class="role">Anggota</div></div></div>
     </div>
-    <p class="form-desc">Anggota baru langsung tampil di kelompok yang dipilih di perangkat ini, dan otomatis terkirim ke Google Sheet pusat (jika sudah terhubung) agar tampil untuk <strong>semua pengunjung</strong>.</p>
-    <form id="form-tambah-anggota">
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Departemen Kaderisasi</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">SH</div><div class="info"><h4>Sholahuddin</h4><div class="role">Koordinator</div></div></div>
+      <div class="person-card"><div class="avatar">LJ</div><div class="info"><h4>Lutfi Johan Saputra</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">RS</div><div class="info"><h4>Raihan Sahreza</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Departemen Jaringan Sekolah Dan Pesantren</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">TA</div><div class="info"><h4>Taufikurrohman</h4><div class="role">Koordinator</div></div></div>
+      <div class="person-card"><div class="avatar">MM</div><div class="info"><h4>Muhammad Maqdis</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">RI</div><div class="info"><h4>Riduan</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">MA</div><div class="info"><h4>M. Abrar</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Departemen Dakwah Dan Kajian Islam</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">MA</div><div class="info"><h4>M. Arsyad</h4><div class="role">Koordinator</div></div></div>
+      <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Raihan</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">KA</div><div class="info"><h4>Khotif Aufa</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">SN</div><div class="info"><h4>Subhan Nur</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Departemen Seni Budaya, Minat Dan Bakat</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">MM</div><div class="info"><h4>M. Muqofi</h4><div class="role">Koordinator</div></div></div>
+      <div class="person-card"><div class="avatar">MA</div><div class="info"><h4>Muhammad Abdan</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">MU</div><div class="info"><h4>Muhsin</h4><div class="role">Anggota</div></div></div>
+      <div class="person-card"><div class="avatar">MZ</div><div class="info"><h4>Muhammad Zaini</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <!-- LEMBAGA-LEMBAGA -->
+  <div class="tier-label">
+    <span class="tag">Lembaga-Lembaga</span>
+    <div class="rule"></div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Lembaga Corps Brigade Pembangunan (CBP)</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">ML</div><div class="info"><h4>Muhammad Lutfi Anshari</h4><div class="role">Komandan</div></div></div>
+      <div class="person-card"><div class="avatar">MZ</div><div class="info"><h4>M. Zaini Abdl Rozak</h4><div class="role">Wakil Komandan</div></div></div>
+    </div>
+    <div class="kelompok-judul" style="margin-top:16px;font-size:12.5px;">Divisi Administrasi</div>
+    <div class="people-grid">
+      <div class="person-card"><div class="avatar">FA</div><div class="info"><h4>Fadillah</h4><div class="role">Kepala</div></div></div>
+      <div class="person-card"><div class="avatar">KH</div><div class="info"><h4>Khairuddin</h4><div class="role">Anggota</div></div></div>
+    </div>
+    <div class="kelompok-judul" style="margin-top:16px;font-size:12.5px;">Divisi Logistik</div>
+    <div class="people-grid">
+      <div class="person-card"><div class="avatar">MA</div><div class="info"><h4>Muhammad Abdillah</h4><div class="role">Kepala</div></div></div>
+      <div class="person-card"><div class="avatar">MB</div><div class="info"><h4>Muhammad Budiman</h4><div class="role">Anggota</div></div></div>
+    </div>
+    <div class="kelompok-judul" style="margin-top:16px;font-size:12.5px;">Divisi Pendidikan Dan Pelatihan</div>
+    <div class="people-grid">
+      <div class="person-card"><div class="avatar">AB</div><div class="info"><h4>Ahmad Badali</h4><div class="role">Kepala</div></div></div>
+      <div class="person-card"><div class="avatar">LA</div><div class="info"><h4>Lutfhi Anshori</h4><div class="role">Anggota</div></div></div>
+    </div>
+    <div class="kelompok-judul" style="margin-top:16px;font-size:12.5px;">Divisi Sosial Kemanusiaan</div>
+    <div class="people-grid">
+      <div class="person-card"><div class="avatar">NA</div><div class="info"><h4>Najmuddin</h4><div class="role">Kepala</div></div></div>
+      <div class="person-card"><div class="avatar">WA</div><div class="info"><h4>Wahid</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Lembaga Pers Dan Penerbitan (LPP)</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">RR</div><div class="info"><h4>Romi Rahaf</h4><div class="role">Direktur</div></div></div>
+      <div class="person-card"><div class="avatar">MM</div><div class="info"><h4>Muhammad Makmur</h4><div class="role">Sekretaris</div></div></div>
+      <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Ramli</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Lembaga Ekonomi Kewirausahaan Dan Koperasi (LEKAS)</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">AC</div><div class="info"><h4>Achmad</h4><div class="role">Direktur</div></div></div>
+      <div class="person-card"><div class="avatar">MR</div><div class="info"><h4>Muhammad Rosyid</h4><div class="role">Sekretaris</div></div></div>
+      <div class="person-card"><div class="avatar">MK</div><div class="info"><h4>Muhammad Khairi</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">Lembaga Komunikasi Perguruan Tinggi (LKPT)</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">MS</div><div class="info"><h4>Muhammad Syafriansyah</h4><div class="role">Direktur</div></div></div>
+      <div class="person-card"><div class="avatar">MA</div><div class="info"><h4>M. Amri Ridhoni</h4><div class="role">Sekretaris</div></div></div>
+      <div class="person-card"><div class="avatar">MH</div><div class="info"><h4>Muhammad Hafi</h4><div class="role">Anggota</div></div></div>
+    </div>
+  </div>
+
+  <!-- BADAN-BADAN -->
+  <div class="tier-label">
+    <span class="tag">Badan-Badan</span>
+    <div class="rule"></div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">1) Badan Student Crisis Center (SCC)</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">MR</div><div class="info"><h4>Muhammad Rizky</h4><div class="role">Direktur</div></div></div>
+      <div class="person-card"><div class="avatar">MA</div><div class="info"><h4>Muhammad Azmi</h4><div class="role">Sekretaris</div></div></div>
+    </div>
+  </div>
+
+  <div class="kelompok">
+    <div class="kelompok-judul">2) Badan Student Reset Center (SRC)</div>
+    <div class="people-grid">
+      <div class="person-card ketua"><div class="avatar">MH</div><div class="info"><h4>Muhammad Hafiz</h4><div class="role">Direktur</div></div></div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  Susunan Pengurus Pimpinan Cabang IPNU Kabupaten Banjar &mdash; Masa Khidmat 2026&ndash;2028
+</footer>
+
+</body>
+</html>
       <div class="field">
         <label for="na-kelompok">Kelompok / Tingkatan</label>
         <select id="na-kelompok" required>
@@ -739,6 +1086,7 @@
                 <option value="L">L</option>
                 <option value="XL">XL</option>
                 <option value="XXL">XXL</option>
+                <option value="XXXL">XXL</option>
               </select>
             </div>
           </div>

@@ -9,11 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#122A21;
+    --ink:#0db020;
     --forest:#0F4C3A;
     --forest-deep:#0A362A;
-    --cream:#FBF6EA;
-    --paper:#F3ECDA;
+    --cream:#1de8d7;
+    --paper:#2af20b;
     --gold:#C79A2B;
     --gold-soft:#E8C874;
     --maroon:#8C3B49;
